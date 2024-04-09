@@ -1,0 +1,129 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 0 300px 300px;
+    
+   
+}
+
+.first-div{
+    background-color: hsl(31, 77%, 52%);
+    width: 250px;
+    height: 420px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+ 
+}
+
+.second-div{
+    background-color: hsl(184, 100%, 22%);
+    width: 250px;
+    height: 420px;
+}
+
+.third-div{
+    background-color: hsl(179, 100%, 13%);
+    width: 250px;  
+    height: 420px;
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+}
+
+img{
+    margin: 35px 0 0 40px
+}
+
+h2{
+    font-family: "Big Shoulders Display";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: #fff;
+    margin: 28px 0 0 40px; 
+}
+
+p{
+    font-size: 12px;
+    margin:30px 0 0 40px ;
+    color: #fff;
+    font-family: "Lexend Deca",sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    
+}
+
+button{
+    width: 120px;
+    height: 38px;
+    margin: 70px 0 0 40px;
+    background-color: #fff;
+    border: none;
+    border-radius: 18px;
+    font-size: 13px;
+    font-family: "Lexend Deca",sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+    
+}
+
+.first-div button{
+    color:hsl(31, 77%, 52%);
+}
+
+.second-div button{
+    color:hsl(184, 100%, 22%);
+}
+
+.third-div button{
+    color:hsl(179, 100%, 13%);
+}
+
+.first-div button:hover{
+    background-color: rgb(82, 80, 80);
+    color: #fff;
+    
+}
+
+.second-div button:hover{
+    background-color: rgb(82, 80, 80);
+    color: #fff;
+}
+
+.third-div button:hover{
+    background-color: rgb(82, 80, 80);
+    color: #fff;
+}
+
+@media (max-width: 375px) {
+    
+    .container{
+        flex-direction: column;
+        margin: 35px 0 35px 55px;
+    }
+
+    .first-div{
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 7px;
+    }
+
+    .third-div{
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 7px;
+    }
+
+   
+}
+    
+
